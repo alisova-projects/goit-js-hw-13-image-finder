@@ -47,8 +47,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alisova-projects/webpack-5-starter-kit"
+    "url": "git+https://github.com/alisova-projects/goit-js-hw-13-image-finder"
   },
-  "homepage": "https://alisova-projects.github.io/webpack-5-starter-kit",
+  "homepage": "https://alisova-projects.github.io/goit-js-hw-13-image-finder",
   "dependencies": {}
 }
