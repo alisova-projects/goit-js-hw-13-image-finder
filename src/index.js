@@ -28,15 +28,10 @@ function onSearch (e) {
 
     imageApiService.query = e.currentTarget.elements.query.value;
     
-    /*
-    проверка на пустую строку(у меня не срабатывает,
-    подтягиваются рандомные картинки.
-    Возможно, это особенность бекенда):
-    */
+    // проверка на пустую строку
     if (imageApiService.query === '') {
         return emptyStringAlert();
     }
-
 
     loadMoreButton.show();
     imageApiService.resetPage();
