@@ -63,8 +63,8 @@ function clearGalleryContainer () {
 function emptyStringAlert(){
     info({
         title: 'No tag!',
-      text: 'Please, specify your request!',
-      delay: 5000,
-    closerHover: true,
+        text: 'Please, specify your request!',
+        delay: 5000,
+        closerHover: true,
     })
 }
