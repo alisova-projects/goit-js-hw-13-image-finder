@@ -7,7 +7,7 @@ function onOpenModal(evt) {
   }
 
   evt.preventDefault(); //отмена перехода по ссылке
-  const imageToShow = `<img src=${evt.target.dataset.source} alt=''>`;
+  const imageToShow = `<img src=${evt.target.dataset.source} alt='image'>`;
   console.log(imageToShow);
   const instance = basicLightbox.create(imageToShow);
   instance.show();
